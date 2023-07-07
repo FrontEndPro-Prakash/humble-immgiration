@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Humble Immigration</title>
+	<link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+	<link rel="manifest" href="img/favicon/site.webmanifest">
+	<meta name="msapplication-TileColor" content="#da532c">
+	<meta name="theme-color" content="#ffffff">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="font/font.css">
+</head>
+<body>
+<!-- Header Section -->
+<header class="sticky_bar">
+	<nav class="navbar navbar-expand-lg ">
+		<div class="container">
+			<div class="header-main d-flex justify-content-between align-items-center w-100">
+				<div class="left-sec">
+					<div class="logo-section d-flex justify-content-start align-items-center">
+						<a href="index.html" class="navbar-brand fs-0"><img src="img/logo.svg" alt="Logo">Logo</a>
+					</div>
+				</div>
+				<div class="right-sec d-flex align-items-center justify-content-between">
+					<button class="navbar-toggler" id="toggleBtn" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="collapse navbar-collapse justify-content-end align-items-center" id="collapsibleNavbar">
+						<ul class="navbar-nav justify-content-end text-uppercase">
+							<li class="nav-item"><a class="nav-link p-0 active" href="javascript:void(0);">Home</a></li>
+							<li class="nav-item d-lg-none d-block"><a class="nav-link p-0" href="news.html">News</a></li>
+							<li class="nav-item dropdown position-static d-lg-block d-none"><a class="nav-link p-0 drop-arrow" href="javascript:void(0);" id="navbarDropdown2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">News</a>
+								<div class="d-lg-block d-none">
+									<div class="dropdown-menu mb-5" aria-labelledby="navbarDropdown2">
+									<div class="d-flex align-items-center justify-content-around text-capitalize">
+										<h3 class="mb-3 font-weight-bold w-100"><a href="news.html" class="card-links">Latest News</a></h3>
+										<h3 class="mb-3 font-weight-bold w-100"><a href="blogs.html"  class="card-links">Latest blogs</a></h3>
+									</div>
+						         	<div class="row">
+										<div class="col-md-6 d-flex">
+											<div class="service-sec-card d-md-flex d-sm-block">
+												<div class="card">
+												 <a href="news-details.html" class="card-header-img"><img class="card-img-top" src="img/card-img.png" alt="" loading="lazy"></a>
+												  <div class="card-body">
+											    	<h4 class="card-title font-weight-bold mb-3">
+												    	<a href="news-details.html" class="card-links">Tools Outage</a>
+												    </h4>
+												    <p class="card-text mb-3">USCIS will conduct system maintenance to the Contact Relationship Interface System (CRIS) on Thursday, January 14 at 11:50 p.m. through Friday, January 15, at 3:00 a.m. Eastern....</p>
+												  <a href="news-details.html" class="card-btn-link">Read More</a>
+												  </div>
+												</div>
+											</div>
+										</div>
+										<div class="col-md-6 pl-0">
+											<ul class="blog-box">
+												<li class="d-flex align-items-center justify-content-between mb-3">
+													 <a href="blog-details.html" class="card-header-img">
+													 	<img src="img/service-card-img11.png" alt="" loading="lazy">
+													 </a>
+													<div class="ml-3 la-blog-box">
+														<h4 class="card-title font-weight-bold">
+															<a href="blog-details.html" class="card-links">How To Gain Residency In Canada Through An Innovative Business Plan</a>
+														</h4>
+														<a href="blog-details.html" class="card-btn-link mb-3">Learn More</a>
+													</div>
+												</li>
+												<li class="d-flex align-items-center justify-content-between mb-3">
+													<a href="blog-details.html" class="card-header-img">
+														<img src="img/service-card-img10.png" alt="" loading="lazy">
+													</a>
+													<div class="ml-3 la-blog-box">
+														<h4 class="card-title font-weight-bold">
+													 		<a href="blog-details.html" class="card-links">Permanent Residency By Investing In An Active Business</a>
+														</h4>
+														<a href="blog-details.html" class="card-btn-link mb-3">Learn More</a>
+													</div>
+												</li>
+												<li class="d-flex align-items-center justify-content-between mb-3">
+													<a href="blog-details.html" class="card-header-img">
+														<img src="img/service-card-img12.png" alt="" loading="lazy">
+													</a>
+													<div class="ml-3 la-blog-box">
+														<h4 class="card-title font-weight-bold">
+															<a href="blog-details.html" class="card-links">Permanent Residency By Investing In An Active Business</a>
+														</h4>
+														<a href="blog-details.html" class="card-btn-link mb-3">Learn More</a>
+													</div>
+												</li>
+											</ul>
+										</div>
+						         	</div>
+						        </div>
+								</div>
+					      	</li>
+					      	<li class="nav-item d-lg-none d-block"><a class="nav-link p-0" href="blogs.html">Blogs</a>
+							<li class="nav-item"><a class="nav-link p-0" href="about-us.html">About</a></li>
+							<li class="nav-item d-lg-none d-block"><a class="nav-link p-0" href="service.html">Services</a></li>
+							<li class="nav-item dropdown position-static d-lg-block d-none"><a class="nav-link drop-arrow p-0" href="javascript:void(0);" id="navbarDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Services</a>
+						        <div class="d-lg-block d-none">
+						        	<div class="dropdown-menu mb-5" aria-labelledby="navbarDropdown1">
+							         	<div class="row">
+								         	<div class="col-md-3 d-flex">
+												<div class="service-sec-card d-md-flex d-sm-block">
+													<div class="card">
+														<a href="service-detail.html" class="card-links">
+												 		 	<img class="card-img-top" src="img/service-card-img1.jpg" alt="" loading="lazy">
+											 		 	</a>
+													  <div class="card-body d-flex flex-column justify-content-between">
+													   	<div class="card-body-cap">
+													   	 	<h4 class="card-title font-weight-bold mb-3">
+													    		<a href="service-detail.html" class="card-links">
+													    		IELTS Training & English Coaching</a>
+												   		 	</h4>
+													    	<p class="card-text mb-3">After years in the industry, we decided to alter direction. Now, we share our passion by helping others to find foreign academic instituted that best suit their goals. </p>
+													   	</div>
+													  	<a href="service-detail.html" class="card-btn-link">Learn More</a>
+													  </div>
+													</div>
+												</div>
+											</div>
+											<div class="col-md-3 d-flex">
+												<div class="service-sec-card d-md-flex d-sm-block">
+													<div class="card">
+											  			<a href="service-detail.html" class="card-links">
+													  		<img class="card-img-top" src="img/service-card-img2.jpg" alt="" loading="lazy">
+												  		</a>
+													  <div class="card-body d-flex flex-column justify-content-between">
+													  	   <div class="card-body-cap">
+														    	<h4 class="card-title font-weight-bold mb-3">
+														    		<a href="service-detail.html" class="card-links">Academic Counselling & Admissions Consultancy</a></h4>
+														    	<p class="card-text mb-3">Experienced Consultants are key—that’s why when it comes to client selection, we’re choosy. We want to give each of you the time and guidance you deserve.</p>
+													    	</div>
+													  		<a href="service-detail.html" class="card-btn-link">Learn More</a>
+													  </div>
+													</div>
+												</div>
+											</div>
+											<div class="col-md-3 d-flex">
+												<div class="service-sec-card d-md-flex d-sm-block">
+													<div class="card">
+														<a href="service-detail.html" class="card-links">
+														  <img class="card-img-top" src="img/service-card-img4.jpg" alt="" loading="lazy">
+														</a>
+													  <div class="card-body d-flex flex-column justify-content-between">
+													  	   <div class="card-body-cap">
+														    <h4 class="card-title font-weight-bold mb-3"><a href="service-detail.html" class="card-links">Immigration Consultancy (Will Have PR/Placements)</a></h4>
+														    <p class="card-text mb-3">After years in the industry, we decided to alter direction. Now, we share our passion by helping others to find foreign academic instituted that best suit their goals.</p>
+													    </div>
+													  	<a href="service-detail.html" class="card-btn-link">Learn More</a>
+													  </div>
+													</div>
+												</div>
+											</div>
+											<div class="col-md-3 d-flex">
+												<div class="service-sec-card d-md-flex d-sm-block">
+													<div class="card">
+														<a href="service-detail.html" class="card-links">
+													  <img class="card-img-top" src="img/service-card-img3.jpg" alt="" loading="lazy">
+													</a>
+													  <div class="card-body d-flex flex-column justify-content-between">
+													  	   <div class="card-body-cap">
+													    <h4 class="card-title font-weight-bold mb-3"><a href="service-detail.html" class="card-links">Work And Travel Visa</a></h4>
+													    <p class="card-text mb-3">Experienced Consultants are key—that’s why when it comes to client selection, we’re choosy. We want to give each of you the time and guidance you deserve.</p>
+													</div>
+													  	<a href="service-detail.html" class="card-btn-link">Learn More</a>
+													  </div>
+													</div>
+												</div>
+											</div>
+								         </div>
+						        	</div>
+						        </div>
+					      	</li>
+							<li class="nav-item"><a class="nav-link p-0" href="contact-us.html">Contact Us</a></li>
+						</ul>
+					</div>
+					<a class="login-link ml-2" href="javascript:void(0);"><img src="img/user-icon.svg" alt="User icon"> Login</a>
+				</div>
+			</div>
+		</div>
+	</nav>
+</header>
+<!-- Carousel Section -->
+<div id="mainslider" class="carousel slide carousel-sec" data-ride="carousel" data-interval="false">
+	<ul class="carousel-indicators">
+		<li data-target="#mainslider" data-slide-to="0" class="active"></li>
+		<li data-target="#mainslider" data-slide-to="1"></li>
+	</ul>
+	<div class="carousel-inner">
+		<div class="carousel-item active">
+			<img src="img/slide-1.png" alt="Slide Image">
+			<div class="container">
+				<div class="carousel-caption d-flex justify-content-between align-items-center">
+					<div class="caption-left">
+						<h1>Experienced Admissions Consulting Personal IELTS Training</h1>
+						<p class="heading-desc d-md-block d-none">Experienced Consultants are key—that’s why when it comes to client selection, we’re choosy. We want to give each of you the time and guidance you deserve, So to afford you the Best Chance of Success.</p>
+						<a href="javascript:void(0);" class="btn btn-red">Consult Now</a>
+					</div>
+					<div class="caption-right">
+						<div class="image-block bg-light d-none d-xl-block">
+						<iframe src="https://www.youtube.com/embed/taytcus_REY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+						</div>
+					</div>
+				</div>	
+			</div>
+		</div>
+		<div class="carousel-item">
+			<img src="img/slide-2.jpg" alt="Slide Image">
+			<div class="container">
+				<div class="carousel-caption d-flex justify-content-between align-items-center">
+					<div class="caption-left">
+						<h1>Experienced Admissions Consulting Personal IELTS Training</h1>
+						<p class="heading-desc d-md-block d-none">Experienced Consultants are key—that’s why when it comes to client selection, we’re choosy. We want to give each of you the time and guidance you deserve, So to afford you the Best Chance of Success.</p>
+						<a href="javascript:void(0);" class="btn btn-red">Consult Now</a>
+					</div>
+					<div class="caption-right">
+						<div class="image-block bg-light d-none d-xl-block">
+						<iframe src="https://www.youtube.com/embed/taytcus_REY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+						</div>
+					</div>
+				</div>	
+			</div>
+		</div>
+	</div>
+</div>
+<!-- Social Feeds Section -->
+<section class="social-sec">
+	<div class="container">
+		<div class="heading-section">
+			<h2 class="text-center">Get Social With us</h2>
+		</div>
+		<div class="row">
+			<div class="col-md-4">
+				<div class="social-feeds">
+					<img src="img/youtube-feed.png" alt="Youtube Feed" loading="lazy">
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="social-feeds">
+					<img src="img/facebook-feed.png" alt="Youtube Feed" loading="lazy">
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="social-feeds">
+					<img src="img/instagram-feed.png" alt="Youtube Feed" loading="lazy">
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<!-- Calculator Section -->
+<section class="band-calc-sec">
+	<div class="container">
+		<div class="row align-items-center">
+			<div class="col-lg-6 col-md-12 col-sm-12">
+				<img src="img/band-calc-image.png" alt="Building Image" class="w-100">
+			</div>
+			<div class="col-lg-6 col-md-12 col-sm-12">
+				<h2 class="text-center text-white">IELTS Band Calculator</h2>
+				<div class="table-responsive table-block bg-light">
+					<table class="table table-bordered">
+						<thead>
+							<tr>
+								<th>Category</th>
+								<th>Raw Score / 40</th>
+								<th>IELTS Band</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>Listening (out of 40)</td>
+								<td><input type="number" name=""></td>
+								<td></td>
+							</tr>
+							<tr>
+								<td>General Reading (out of 40)</td>
+								<td><input type="number" name=""></td>
+								<td></td>
+							</tr>
+							<tr>
+								<td>Academic Reading (out of 40)</td>
+								<td><input type="number" name=""></td>
+								<td></td>
+							</tr>
+						</tbody>
+					</table>
+					<a href="javascript:void(0)" class="btn btn-red mx-auto">Calculate score</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<!-- Service Section -->
+<section class="service-listing-sec contain_auto">
+	<div class="container">
+		<div class="heading-section">
+			<h2 class="text-center">Services we provide</h2>
+			<p class="heading-desc">Humble Immigration (Hi) Consultation Service offers you the opportunity to visit Immigration Consultants having a profound knowledge of the Visa Application Processes.</p>			
+		</div>
+		<div class="row">
+			<div class="col-md-6 d-flex">
+				<div class="service-sec-card d-md-flex d-sm-block">
+					<div class="card">
+						<a href="service-detail.html" class="card-links">
+						  	<img class="card-img-top" src="img/service-card-img1.jpg" alt="" loading="lazy">
+					  	</a>
+					  <div class="card-body">
+					    <h4 class="card-title font-weight-bold"><a href="service-detail.html" class="card-links">IELTS Training & English Coaching</a></h4>
+					    <p class="card-text">After years in the industry, we decided to alter direction. Now, we share our passion by helping others to find foreign academic instituted that best suit their goals. Our ramp up process is designed to empower your admissions decisions. </p>
+					  </div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-6 d-flex">
+				<div class="service-sec-card d-md-flex d-sm-block">
+					<div class="card">
+					  <a href="service-detail.html" class="card-links"><img class="card-img-top" src="img/service-card-img4.jpg" alt="" loading="lazy"></a>
+					  <div class="card-body">
+					    <h4 class="card-title font-weight-bold"><a href="service-detail.html" class="card-links">Academic Counselling & Admissions Consultancy</a></h4>
+					    <p class="card-text">Experienced Consultants are key—that’s why when it comes to client selection, we’re choosy. We want to give each of you the time and guidance you deserve, So to afford you the Best Chance of Success. </p>
+					  </div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-6 d-flex">
+				<div class="service-sec-card d-md-flex d-sm-block">
+					<div class="card">
+					  	<a href="service-detail.html" class="card-links"><img class="card-img-top" src="img/service-card-img3.jpg" alt="" loading="lazy"></a>
+					  <div class="card-body">
+					    <h4 class="card-title font-weight-bold"><a href="service-detail.html" class="card-links">Immigration Consultancy (Will Have PR/Placements)</a></h4>
+					    <p class="card-text">After years in the industry, we decided to alter direction. Now, we share our passion by helping others to find foreign academic instituted that best suit their goals. Our ramp up process is designed to empower your admissions decisions. </p>
+					  </div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-6 d-flex">
+				<div class="service-sec-card d-md-flex d-sm-block">
+					<div class="card">
+					  <a href="service-detail.html" class="card-links"><img class="card-img-top" src="img/service-card-img2.jpg" alt="" loading="lazy"></a>
+					  <div class="card-body">
+					    <h4 class="card-title font-weight-bold"><a href="service-detail.html" class="card-links">Work / Travel Visa</a></h4>
+					    <p class="card-text">Experienced Consultants are key—that’s why when it comes to client selection, we’re choosy. We want to give each of you the time and guidance you deserve, So to afford you the Best Chance of Success. </p>
+					  </div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<!-- About Section -->
+<section class="about-us-sec p-4 contain_auto">
+	<div class="container">
+		<div class="heading-section">
+			<h2 class="text-center text-white">About us</h2>
+			<p class="heading-desc text-white">We offers a full range of services to individuals and businesses in the area of skilled, business and family-based immigration.  The team of professionals along with support staff at Hi have considerable experience in dealing with the complexities of the immigration process.</p>
+		</div>
+		<div class="row">
+			<div class="col-md-6 d-flex">
+				<div class="service-sec-card d-md-flex d-sm-block">
+					<div class="card border-0">
+					  <a href="about-us.html" class="card-links"><img class="card-img-top" src="img/service-card-img5.jpg" alt="" loading="lazy"></a>
+					  <div class="card-body">
+					    <h4 class="card-title font-weight-bold"><a href="about-us.html" class="card-links">Our Experience</a></h4>
+					    <p class="card-text">After years in the industry, we decided to alter direction. Now, we share our passion by helping others to find foreign academic instituted that best suit their goals. Our ramp up process is designed to empower your admissions decisions. </p>
+					  </div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-6 d-flex">
+				<div class="service-sec-card d-md-flex d-sm-block">
+					<div class="card border-0">
+					  <a href="about-us.html" class="card-links"><img class="card-img-top" src="img/service-card-img6.jpg" alt="" loading="lazy"></a>
+					  <div class="card-body">
+					    <h4 class="card-title font-weight-bold"><a href="about-us.html" class="card-links">Why Us?</a></h4>
+					    <p class="card-text">Experienced Consultants are key—that’s why when it comes to client selection, we’re choosy. We want to give each of you the time and guidance you deserve, So to afford you the Best Chance of Success. </p>
+					  </div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<!-- Blogs & News Section -->
+<section class="resource-sec contain_auto">
+	<div class="container">
+		<div class="heading-section">			
+			<h2 class="text-center">Resources & News</h2>
+			<p class="heading-desc">Stay tuned with us for latest updates and information.</p>
+		</div>
+		<div class="row">
+			<div class="col-md-4">
+				<div class="service-sec-card d-md-flex d-sm-block">
+					<div class="card">
+					  <a href="blogs.html" class="card-links"><img class="card-img-top" src="img/service-card-img7.jpg" alt="" loading="lazy"></a>
+					  <div class="card-body">
+					    <h4 class="card-title font-weight-bold mb-3"><a href="blogs.html" class="card-links">IELTS TRAINING</a></h4>
+					    <span class="d-flex align-items-center mb-3"><img src="img/calendar-icon.svg" alt="" loading="lazy" class="mr-2"> 01-Jan-2021</span>
+					    <p class="card-text mb-3">Saskatchewan issues 385 invitations in first 2021 PNP draw</p>
+					  <a href="blogs.html" class="card-btn-link">View More</a>
+					  </div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="service-sec-card d-md-flex d-sm-block">
+					<div class="card">
+					  <a href="blogs.html" class="card-links"><img class="card-img-top" src="img/service-card-img9.jpg" alt="" loading="lazy"></a>
+					  <div class="card-body">
+					    <h4 class="card-title font-weight-bold mb-3"><a href="blogs.html" class="card-links">Tools Outage</a></h4>
+					    <span class="d-flex align-items-center mb-3"><img src="img/calendar-icon.svg" alt="" loading="lazy" class="mr-2"> 01-Jan-2021</span>
+					    <p class="card-text mb-3">PGP 2020: Canada completes the process of sending out invitations </p>
+					  <a href="blogs.html" class="card-btn-link">View More</a>
+					  </div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="service-sec-card d-md-flex d-sm-block">
+					<div class="card">
+					  <a href="blogs.html" class="card-links"><img class="card-img-top" src="img/service-card-img8.jpg" alt="" loading="lazy"></a>
+					  <div class="card-body">
+					    <h4 class="card-title font-weight-bold mb-3"><a href="blogs.html" class="card-links">IELTS TRAINING</a></h4>
+					    <span class="d-flex align-items-center mb-3"><img src="img/calendar-icon.svg" alt="" loading="lazy" class="mr-2"> 01-Jan-2021</span>
+					    <p class="card-text mb-3">Nova Scotia sets stage for economic recovery with increased levels of immigration</p>
+					  	<a href="blogs.html" class="card-btn-link">View More</a>
+					  </div>
+					</div>
+				</div>
+			</div>
+			<div class="col-12 text-center">
+				<a href="javascript:void(0)" class="btn btn-red mx-auto mt-4">See All News</a>
+			</div>
+		</div>
+	</div>
+</section>
+<!-- Testimonial Section -->
+<section class="testimonial-sec contain_auto">
+	<div class="container">
+		<div class="heading-section">
+			<h2 class="text-center">What our clients say ?</h2>
+			<p class="heading-desc">Read our clients’ success stories and recommendations</p>			
+		</div>
+		<div class="row">
+			<div class="col-md-12">
+				<div class="testi-slider">
+					<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+					  <div class="carousel-inner">
+					    <div class="carousel-item active">
+					      <div class="d-md-flex d-sm-block responsive-testimonial">
+					      	<div class="position-relative testi-slid-img">
+					      		<img class="d-block w-100" src="img/testimonial-img1.jpg" alt="First slide">
+					      		<a href="#" class="play-video" data-toggle="modal" data-target="#playvideo-modal"><img src="img/play-video-icon.svg" loading="lazy" class="mr-2" alt=""> Play Video</a>
+					      	</div>
+						      <div class="testi-slider-content">
+						      	<p>"  I would also like to add that the working system of this company is appreciable. I would also like to mention that the whole staff is very trustworthy and co-operative and have the capacity to attract clients which is most urgent for public dealings. "</p>
+						      	<div class="d-flex justify-content-center align-items-center">
+						      		<img src="img/testimonial-img2.svg" alt="" class="mr-3" loading="lazy">
+						      		<span class="font-weight-bold">Priya Verma</span>
+						      	</div>
+						      </div>
+					      </div>
+					    </div>
+				     	<div class="carousel-item">
+				    	  	<div class="d-md-flex d-sm-block responsive-testimonial">
+				    	  		<div class="position-relative testi-slid-img">
+					      		<img class="d-block w-100" src="img/testimonial-img1.jpg" alt="First slide">
+					      		<a href="#" class="play-video" data-toggle="modal" data-target="#playvideo-modal"><img src="img/play-video-icon.svg" loading="lazy" class="mr-2" alt=""> Play Video</a>
+					      	</div>
+						      <div class="testi-slider-content">
+						      	<p>"  I would also like to add that the working system of this company is appreciable. I would also like to mention that the whole staff is very trustworthy and co-operative and have the capacity to attract clients which is most urgent for public dealings. "</p>
+						      	<div class="d-flex justify-content-center align-items-center">
+						      		<img src="img/testimonial-img2.svg" alt="" class="mr-3" loading="lazy">
+						      		<span class="font-weight-bold">Priya Verma</span>
+						      	</div>
+						      </div>
+						  </div>
+					    </div>
+					    <div class="carousel-item">
+				    	  	<div class="d-md-flex d-sm-block responsive-testimonial">
+				    	  		<div class="position-relative testi-slid-img">
+					      		<img class="d-block w-100" src="img/testimonial-img1.jpg" alt="First slide">
+					      		<a href="#" class="play-video" data-toggle="modal" data-target="#playvideo-modal"><img src="img/play-video-icon.svg" loading="lazy" class="mr-2" alt=""> Play Video</a>
+					      	</div>
+						      <div class="testi-slider-content">
+						      	<p>"  I would also like to add that the working system of this company is appreciable. I would also like to mention that the whole staff is very trustworthy and co-operative and have the capacity to attract clients which is most urgent for public dealings. "</p>
+						      	<div class="d-flex justify-content-center align-items-center">
+						      		<img src="img/testimonial-img2.svg" alt="" class="mr-3" loading="lazy">
+						      		<span class="font-weight-bold">Priya Verma</span>
+						      	</div>
+						      </div>
+						    </div>
+						</div>
+					  </div>
+					  <a class="carousel-control-prev" data-target="#carouselExampleControls" role="button" data-slide="prev">
+					    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					    <span class="sr-only">Previous</span>
+					  </a>
+					  <a class="carousel-control-next" data-target="#carouselExampleControls" role="button" data-slide="next">
+					    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+					    <span class="sr-only">Next</span>
+					  </a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<!-- Forms Section -->
+<section class="forms-sec contain_auto">
+	<div class="container">
+		<div class="heading-section">
+			<h2 class="text-center">Subscribe Today</h2>
+			<p class="heading-desc">Join our mailing list to receive latest updates and news</p>	
+		</div>
+		<div class="row">
+			<div class="col-md-12">
+				<form class="main-form">
+					<div class="form-group mb-0">
+						<label class="fs-0" for="youremail">Email</label>
+						<input type="email" placeholder="Your Email" class="form-control" name="youremail">
+					</div>
+					<div class="form-group mb-0">
+						<label class="fs-0" for="yourname">Name</label>
+						<input type="text" placeholder="Full Name" class="form-control" name="yourname">
+					</div>
+				</form>
+			</div>
+			<div class="col-12 text-center">
+				<a href="javascript:void(0)" class="btn btn-red mx-auto mt-4">Subscribe</a>
+			</div>
+		</div>
+	</div>
+</section>
+<!-- Footer Section -->
+<footer class="footer-sec">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-2 col-md-2 col-sm-12">
+				<div class="footer-logo">
+					<a href="index.html"><img src="img/logo-white.svg" class="img-fluid" alt="" loading="lazy"></a>
+				</div>
+			</div>
+			<div class="col-lg-2 col-md-2 col-sm-12">
+				<h5 class="footer-hlink">ABOUT</h5>
+				<ul class="footer-links">
+					<li><a href="#">Help</a></li>
+					<li><a href="service.html">Services</a></li>
+					<li><a href="#">Our Team</a></li>
+				</ul>
+			</div>
+			<div class="col-lg-2 col-md-2 col-sm-12">
+				<h5 class="footer-hlink">VISA</h5>
+				<ul class="footer-links">
+					<li><a href="#">Student Visa</a></li>
+					<li><a href="#">Family Visa</a></li>
+					<li><a href="#">Travel Visa</a></li>
+				</ul>
+			</div>
+			<div class="col-lg-3 col-md-3 col-sm-12">
+				<h5>CONTACT US</h5>
+				<ul class="footer-icons">
+					<li><p class="m-0"><img src="img/footer-home.svg" class="mr-2" alt="">Head office</p>
+					<p class="footer-address"> SCO 97, District Shopping Complex, B-Block, Ranjit Avenue, Amritsar, Punjab, 143001</p></li>
+					<li class="call-link"><a href="tel:+91-123456789"><img src="img/footer-call.svg" class="mr-2" alt="">+91-123456789</a></li>
+				</ul>
+			</div>
+			<div class="col-lg-3 col-md-3 col-sm-12">
+				<h5>FOLLOW US</h5>
+				<img src="img/insta-feed.png" alt="">
+			</div>
+			<div class="col-12">
+				<div class="d-flex align-items-center justify-content-between flex-wrap footer-l-links mt-5 mb-2">
+					<div class="cms-page-links">
+						<a href="terms-and-condition.html" class="policy-links">Terms & Conditions</a> <a href="privacy-policy.html" class="policy-links">| Privacy Policy</a> <a href="#" class="policy-links">| Refund Policy</a> <a href="#" class="policy-links">| Cookies Policy</a>
+					</div>
+					<p>Design and developed by <a href="https://think360studio.com/" class="t360link" target="_blank">Think360 Studio.</a></p>
+				</div>
+			</div>
+		</div>
+	</div>
+</footer>
+
+<div class="fixed-btn-group">
+	<a href="javascript:void(0);" class="heading-desc contact-wup d-flex"><img src="img/whatsapp.svg" alt="Whatsapp icon"> <span class="ml-2">+1 920-626-65744</span></a>
+	<a href="javascript:void(0);" class="heading-desc like-badge d-flex"><img src="img/like.svg" alt="Like icon"> <span class="ml-2">Free Assessments</span></a>
+</div>
+<!-- Modals -->
+<!-- Play Video Modal -->
+<div class="modal fade" id="playvideo-modal" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-md" role="document">
+        <div class="modal-content intraoral-app">
+            <div class="modal-header">
+                <div class="ibox-title">
+                    <div class="pull-right">
+                        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span><span class="sr-only">Close</span></button>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-body">
+                <div class="">
+                    <video controls="" id="video-preivew-model" style="width: 100%; height: auto; margin:0 auto; frameborder:0;">
+                      <source src="img/mov_bbb.mp4" type="video/mp4">
+                      Your browser doesn't support HTML5 video tag.
+                    </video>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- //Play Video Modal -->
+<!-- //Modals -->
+<!-- Script -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="js/custom.js"></script>
+<script src="js/custom.js"></script>
+<script>
+$("#toggleBtn").click(function(){
+	$("#collapsibleNavbar").toggleClass("menu-show");
+});
+</script>
+<script>
+	$(window).load(function() {
+		$('.carousel').carousel('pause');
+	});
+</script>
+</body>
+</html>
